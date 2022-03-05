@@ -1,0 +1,357 @@
+/*
+ * Stile per pagina superiori
+ */
+
+html{
+    overflow-y: scroll; /* per evitare spostamenti con la barra verticale */
+}
+
+body{
+    margin:0;
+    padding:5px 0px 0px 0px;
+    color: #000000;
+	background: rgb(230, 244, 248);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11pt;
+    font-weight:normal;
+    text-align:justify;
+}
+
+a{
+		text-decoration: none;
+        color: #0000EE;
+}
+
+a:visited{
+        text-decoration: none;
+        color: #551A8B;
+}
+
+a:hover{
+		text-decoration: underline;
+}
+
+.different:visited{
+        text-decoration: none;
+        color: #0000EE;
+}
+
+kbd{
+    background-color:#f7f7f7;
+    border:1px solid #ccc;
+    border-radius:3px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    color:#333;
+    display:inline-block;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:11px;
+    line-height:1.4;
+    margin:0 .1em;
+    padding:.1em .6em;
+    text-shadow:0 1px 0 #fff;
+}
+
+#wrap{
+    margin:0 auto;
+    padding:0;
+    width:900px;
+}
+
+#main{
+    margin: 3px 0px 0px 0px;
+    padding:0px 32px 8px 32px;
+    color: #000000;
+    background: rgb(244, 248, 248);
+	border: 1px solid rgb(204, 204, 204);
+}
+
+#top{
+    margin:0;
+    padding:0;
+    height: 78px;
+	background: #EFEFEF;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-weight:normal;
+    border: 2px solid rgb(204, 204, 204);
+}
+
+.logo{
+    font-size:50px;
+    font-weight:normal;
+    display: inline-block;
+    margin-top: 0px;
+    width: 900px;
+}
+
+.wraptocenter {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.top_nav{
+    margin:0;
+    padding:0;
+    padding-left:0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    opacity: 0.90;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background:#000080; /* originale #000000 */
+    height: 30px;
+    width: 900px;
+    text-align:right;
+    white-space:nowrap;
+}
+
+.tab0 {
+    margin:0;
+    color:#EEEEEE;
+    text-decoration: none;
+    float:left;
+    outline: none;
+    line-height:28px;
+}
+
+.tab0 a{
+    margin:0;
+    padding:5.5px 12px 6px 12px;
+    color:#BBBBBB;
+    text-decoration: none;
+    outline: none;
+}
+
+.tab0 a:hover{
+    margin:0;
+    text-decoration: none;
+    background:#2A52BE; /* originale #303438 */
+    outline: none;
+}
+
+.tab1 {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    float:left;
+    outline: none;
+    opacity: 1.0;
+    line-height:28px;
+}
+
+.tab1 a{
+    margin:0;
+    padding:5.5px 12px 6px 12px;
+    color:#FFFFFF;
+    text-decoration: none;
+    background:#343A90; /* originale #28323B */
+    outline: none;
+}
+
+.tab1 a:hover{
+    margin:0;
+    text-decoration: none;
+    background:#2A52BE; /* originale #48525B */
+    outline: none;
+}
+
+.tab2 {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    float:right;
+    outline: none;
+    line-height:28px;
+}
+
+.tab2 a{
+    margin:0;
+    padding:5.5px 12px 6px 12px;
+    color:#AAAAAA;
+    text-decoration: none;
+    outline: none;
+}
+
+.tab2 a:hover{
+    margin:0;
+    text-decoration: none;
+    background:#2A52BE; /* originale #303438 */
+    outline: none;
+}
+
+#footer{
+    margin:0;
+    padding:8px 8px 8px 8px;
+    font-size: 90%;
+    opacity: 0.99;
+}
+
+.boxed{
+    border: 4px;
+    border-style: double;
+    padding: 5px;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: left;
+    color: #003060;
+}
+
+h2{
+    font-size: large;
+    text-align: left;
+    color: #000080;
+}
+
+h3{
+    font-size: x-large;
+    color: #000080;
+}
+
+strong{
+    font-weight: bold;
+    color: #000080;
+    background: inherit;
+}
+
+  /* Styles for TeX and LaTeX logos. */
+  .lowE {
+   position:       relative;
+   top:            0.38ex;      /* originariamente -0.5ex */
+   text-transform: uppercase;
+   margin-left:    -0.1667em;
+   margin-right:   -0.065em     /* originariamente -0.125em */
+  }
+  .highA {
+   position:       relative;
+   top:            -0.35ex;     /* originariamente -0.5ex */
+   text-transform: uppercase;
+   margin-left:    -0.38em;     /* originariamente -0.40em */
+   margin-right:   -0.15em;
+   font-size:      80%          /* originariamente smaller */
+  }
+
+/* Frame e sidebar */
+
+#corpo{
+    overflow:hidden;/*Per contenere i due float*/
+    padding:0;
+    margin-top:10px;
+}
+
+#sidebar{
+    float:left;
+    width:150px;
+    padding:3px;
+    background:#EFEFEF;
+}
+
+#principale{
+    margin-left:180px;
+    padding:5px;
+    margin-top:0;
+}
+
+
+.menu_simple {
+    font-weight:bold;
+    font-size:13px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
+}
+
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 10.5px 11px;
+    display:block;
+    border-top:1px solid #CCCCCC;
+    width:auto;
+
+}
+
+.menu_simple ul li a:hover { 
+    color: white;
+    background-color: #343A90;
+}
+
+.menu_simple #current {
+    color: #6A5ACD;
+    background-color: #DCDCDC;
+}
+
+.menu_simple ul li #current:hover { 
+    color: #DCDCDC;
+    background-color: #343A90;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    font-size: 110%;
+    white-space: pre;
+    margin: 1em 0;
+    background: #EFEFEF;
+    padding: 8px 8px;
+}
+
+.img-right {
+	float: right;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	border: 2px groove rgb(204, 204, 204);
+}
+
+.img {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	border: 2px groove rgb(204, 204, 204);
+}
+
+.class0 {
+    margin:0;
+    color:#EEEEEE;
+    text-decoration: none;
+    float:left;
+    outline: none;
+    line-height:28px;
+}
+
+.class0 a{
+    margin:0;
+    padding:5.5px 12px 6px 12px;
+    color:darkblue;
+    text-decoration: none;
+    outline: none;
+}
+
+.class0 a:hover{
+    margin:0;
+    text-decoration: none;
+    /* color:#BBBBBB; */
+    color: white;
+    background:#2A52BE; /* originale #303438 */
+    outline: none;
+}
+
+.class0 #corrente {
+    color: #6A5ACD;
+    background-color: #DCDCDC;
+}
+
+.class0 #corrente:hover { 
+    color: #DCDCDC;
+    background-color: #2A52BE;
+}
